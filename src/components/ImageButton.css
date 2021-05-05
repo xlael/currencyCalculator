@@ -1,0 +1,32 @@
+#img-btn {
+    width: 3em;
+    height: 4em;
+    margin: 0.5em;
+    padding: 0.2em;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.img-btn-flag {
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+.img-btn-flag img {
+    border-radius: 5px;
+}
+
+.img-btn-text {
+    display: block;
+    position: relative;
+    color: #000;
+}
