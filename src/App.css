@@ -12,3 +12,8 @@
   font-size: 13px;
   color: white;
 }
+
+.row-layout {
+    display: flex;
+    flex-direction: row;
+}
