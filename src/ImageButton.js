@@ -9,7 +9,7 @@ function ImageButton(props) {
   return (
     <div className='image-button'>
       <img 
-        src={require(`./images/${ name }.png`).default} 
+        src={`./images/${ name }.png`} 
         alt={ name } 
         className={ className }/>
       <div>{ text }</div>
