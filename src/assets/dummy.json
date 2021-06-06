@@ -1,18 +1,18 @@
 {
-  "big": {
-    "korea": {
-      "text": "대한민국 KRW"
-    },
-    "japan": {
-      "text": "일본 JPY"
-    }
+  "south-korea": {
+    "text": "대한민국 KRW",
+    "size": "big"
   },
-  "small": {
-    "unitedStates": {
-      "text": "멕시코 MXN"
-    },
-    "maxico": {
-      "text": "멕시코 MXN"
-    }
+  "japan": {
+    "text": "일본 JPY",
+    "size": "big"
+  },
+  "united-states": {
+    "text": "멕시코 MXN",
+    "size": "small"
+  },
+  "mexico": {
+    "text": "멕시코 MXN",
+    "size": "small"
   }
 }
