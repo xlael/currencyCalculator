@@ -11,9 +11,9 @@ const switchButton = {
 function App() {
   return (
     <React.Fragment>
-      {Object.keys(country).map((nature, idx) => {
-        const { text, size } = country[nature];
-        const obj = Object.assign({}, {name: nature, className: `${size}-flag`, text });
+      {country.map((nature, idx) => {
+        const { text, size, name } = nature;
+        const obj = Object.assign({}, {name, className: `${size}-flag`, text });
 
         return (
           <div key={idx}>
