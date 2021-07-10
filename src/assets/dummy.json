@@ -1,0 +1,22 @@
+[
+  {
+    "text": "대한민국 KRW",
+    "size": "big",
+    "name": "south-korea"
+  },
+  {
+    "text": "일본 JPY",
+    "size": "big",
+    "name": "japan"
+  },
+  {
+    "text": "미국 USD",
+    "size": "small",
+    "name": "united-states"
+  },
+  {
+    "text": "멕시코 MXN",
+    "size": "small",
+    "name": "mexico"
+  }
+]
