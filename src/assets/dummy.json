@@ -1,22 +1,18 @@
 [
   {
     "title": "대한민국 KRW",
-    "imageName": "south-korea",
     "currency": "KRW"
   },
   {
     "title": "일본 JPY",
-    "imageName": "japan",
     "currency": "JPY"
   },
   {
     "title": "미국 USD",
-    "imageName": "united-states",
     "currency": "USD"
   },
   {
     "title": "멕시코 MXN",
-    "imageName": "mexico",
     "currency": "MXN"
   }
 ]
