@@ -8,7 +8,7 @@ const Layout = () => {
     <div>
       <h3>Input</h3>
       <div>
-        <CompareSection />
+        <ConvertSection />
       </div>
       <h3>Flag List</h3>
       {country.map(({ currency, title }, idx) => {
