@@ -1,7 +1,7 @@
 import React from 'react';
 import country from '../assets/dummy.json';
 import ImageButton from './ImageButton';
-import CompareSection from './ConvertSection';
+import ConvertSection from './ConvertSection';
 
 const Layout = () => {
   return (
