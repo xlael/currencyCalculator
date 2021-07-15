@@ -1,14 +1,14 @@
 import React from 'react';
 import country from '../assets/dummy.json';
 import ImageButton from './ImageButton';
-import CompareSection from './CompareSection';
+import ConvertSection from './ConvertSection';
 
 const Layout = () => {
   return (
     <div>
       <h3>Input</h3>
       <div>
-        <CompareSection />
+        <ConvertSection />
       </div>
       <h3>Flag List</h3>
       {country.map(({ currency, title }, idx) => {

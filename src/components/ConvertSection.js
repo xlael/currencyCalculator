@@ -2,7 +2,7 @@ import React from 'react';
 import ImageButton from './ImageButton';
 import CurrencyMoney from './CurrencyMoney';
 
-const CompareSection = () => {
+const ConvertSection = () => {
   return (
     <div>
       <CurrencyMoney />
@@ -12,4 +12,4 @@ const CompareSection = () => {
   );
 };
 
-export default CompareSection;
+export default ConvertSection;
