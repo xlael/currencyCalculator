@@ -1,7 +1,7 @@
 import React from 'react';
-import country from '../assets/dummy.json';
-import ImageButton from './ImageButton';
+
 import ConvertSection from './ConvertSection';
+import Popup from './Popup';
 
 const Layout = () => {
   return (
@@ -10,10 +10,9 @@ const Layout = () => {
       <div>
         <ConvertSection />
       </div>
-      <h3>Flag List</h3>
-      {country.map(({ currency, title }, idx) => {
-        return <ImageButton key={idx} imageName={currency} title={title} />;
-      })}
+      <section>
+        <Popup />
+      </section>
     </div>
   );
 };
